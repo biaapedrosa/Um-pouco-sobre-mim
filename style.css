@@ -1,0 +1,43 @@
+img {
+  width: 200px;  
+  height: auto;   
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.escuro {
+  background-color: black;
+  color: white;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #333;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+body.escuro header nav ul {
+  background-color: #222;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+}
