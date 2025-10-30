@@ -1,18 +1,14 @@
 img {
   width: 200px;  
-  height: auto;   
+  height: auto;  
 }
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: white;
   color: black;
   transition: background-color 0.3s, color 0.3s;
-}
-
-body.escuro {
-  background-color: black;
-  color: white;
 }
 
 header nav ul {
@@ -24,10 +20,6 @@ header nav ul {
   transition: background-color 0.3s;
 }
 
-body.escuro header nav ul {
-  background-color: #222;
-}
-
 header nav ul li a {
   color: white;
   text-decoration: none;
@@ -35,9 +27,11 @@ header nav ul li a {
 }
 
 main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  text-align: center;
+
+  text-align: center; 
+  padding: 20px;      
+}
+
+h1 {
+  color: #C2185B;
 }
